@@ -1,0 +1,27 @@
+# Build output
+_build/
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor / tool settings
+.claude/
+.codex/
+.agents/
+.omc/
+.cursor/
+.vscode/
+CLAUDE.md
+AGENTS.md
+
+# Data / binaries
+*.csv
+*.wav
+*.hex
+*.bin
+*.log
+
+# Local backups / scratch
+*.pre_*
+tmp/

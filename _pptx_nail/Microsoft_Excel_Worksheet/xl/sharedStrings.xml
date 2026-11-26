@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="71" uniqueCount="71"><si><t>N</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>Picture</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>Model</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>Description</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>Qt</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>ISP1807</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>Comparator(MIC842HYMT-TR)</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>IMU(LSM6DSLTR)</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>V2S200D</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>BAS4002AR</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>RED LED</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>499 Resistor</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>0 Resistor</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>1M Resistor</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>2M Resistor</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>10k Resistor</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>1uF Capacitor</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>100nF Capacitor</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>2.2uF Capacitor</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>10nF Capacitor</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>4.7pF Capacitor</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>5.1pF Capacitor</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>5V LDO(LP2985-33DBVT)</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>Charging Diode(CDBQC0130L-HF)</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>IC COMPARATOR MICROPWR 6MLF</t></si><si><t>①</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>②</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>③</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>④</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>⑤</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>⑥</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>⑦</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>⑧</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>⑨</t></si><si><t>⑩</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>⑫</t></si><si><t>⑯</t></si><si><t>⑰</t></si><si><t>⑲</t></si><si><t>⑳</t></si><si><t>㉑</t></si><si><t>㉒</t></si><si><t>⑱</t></si><si><t>⑮</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>⑬</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>⑪</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>⑭</t></si><si><t>3V LDO(TPS7A0230PDQNR)</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>4GB Memory(MT29F4G01ABAFDWB-IT:F TR)</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>BQ25101YFPR</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>Linear Voltage Regulator IC Positive Fixed 1 Output 500mA 
+Input voltage range: 1.45V to 5.5 V Low
+Low dropout:-238 mv (Maximum) at 500mA (3.3 VOUT)</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>Built-in antenna low energy module
+Bluetooth Bluetooth vS.0, Thread, Zigbee® Transceiver
+Module 2.402GHz ~ 2.48GHz Integrated, Trace Surface
+Mount</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>Surface mount LED RED
+Red 631nm LED Indication - Discrete 2.1V 0402 (1005
+Metric)</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>General Purpose Thick film standard power
+And high-power chip resister
+10 kOhms ±1% 0.0SW, 1/20W Chip Resistor</t><phoneticPr fontId="1" type="noConversion"/></si><si><r><t xml:space="preserve">Surface mount multilayer ceramic capacitors
+1 </t></r><r><rPr><sz val="11"/><color theme="1"/><rFont val="Calibri"/><family val="2"/><charset val="161"/></rPr><t>μ</t></r><r><rPr><sz val="11"/><color theme="1"/><rFont val="맑은 고딕"/><family val="2"/><charset val="129"/><scheme val="minor"/></rPr><t>F ±10% 6.3V Ceramic Capacitor X5R 0201</t></r><phoneticPr fontId="1" type="noConversion"/></si><si><t>Bridge Rectifier Single Phase Schottky 40 V Surface Mount
+PG-SOT-143-3D
+Low VF Schottky diode array
+Small diode quad array for polarity independence
+Reverse polarity protection and low loss bridge rectification
+Designed to save energy and to extent the battery</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>Linear Voltage Regulator IC Posit ive Fixed 1 Output 150mA
+SOT-23-5
+Low-noise, low-dropout regulator with shutdown
+VIN range (new chip): 2.5 V to 16 V
+VOUT range (new chip): -1 .2 V to 5.0 V (fixed, 100-mV steps)</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>Low VF SMD Schottky Barrier Diode
+Diode 30 V 100mA Surface Mount 0402C/SOD-923F
+Low forward voltage
+Designed for mounting on small surface.
+Extremely thin package.</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>Charger IC Lithium Ion/Polymer 6-DSBGA
+linear chargers targeted at space-limited portable
+applications.
+A single power output that charges the batterye</t><phoneticPr fontId="1" type="noConversion"/></si><si><r><t xml:space="preserve">Chip monolithic ceramic capacitor for general.
+2.2 </t></r><r><rPr><sz val="11"/><color theme="1"/><rFont val="Calibri"/><family val="2"/><charset val="161"/></rPr><t>μ</t></r><r><rPr><sz val="11"/><color theme="1"/><rFont val="맑은 고딕"/><family val="2"/><charset val="129"/><scheme val="minor"/></rPr><t>F ±20% 6.3V Ceramic Capacitor XSR 0201 (0603 Metric)</t></r><phoneticPr fontId="1" type="noConversion"/></si><si><t>Chip monolithic ceramic capacitor for general.
+10000 pF ±1 0% 10V Ceramic Capacit or X7R 0201 (0603
+Met ric)</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>General Purpose Thick film standard power
+And high-power chip resister
+0 Ohms Jumper Chip Resistor 0201 (0603 Metric) Thick Film</t><phoneticPr fontId="1" type="noConversion"/></si><si><r><t xml:space="preserve">Chip monolithic ceramic capacitor for ge11eral. 4
+0.1 </t></r><r><rPr><sz val="11"/><color theme="1"/><rFont val="Calibri"/><family val="2"/><charset val="161"/></rPr><t>μ</t></r><r><rPr><sz val="11"/><color theme="1"/><rFont val="맑은 고딕"/><family val="2"/><charset val="129"/><scheme val="minor"/></rPr><t>F ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)</t></r><phoneticPr fontId="1" type="noConversion"/></si><si><t>iNEMO inert ial module: always-on 2
+3D accelerometer and 3D gyroscope
+Accelerometer, Gyroscope, Temperature, 6 Axis Sensor I2C,
+SPI Output</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>Flash Nand memory</t><phoneticPr fontId="1" type="noConversion"/></si><si><t xml:space="preserve">The V2S200D is a miniature, high-performance, low power, digital Voice Vibration Sensor (V2S)
+ with a single bit PDM output. Derived from Syntiant’s proven high performance SiSonic™ MEMS technology, 
+the V2S200D consists of a transducer, a low-noise input buffer, and a sigma-delta modulator. </t><phoneticPr fontId="1" type="noConversion"/></si><si><t>General Purpose Thick film standard power
+And high-power chip resister
+499 Ohms ±1% 0.0SW, 1/20W Chip Resistor</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>1 MOhms ±1% 0.05W, 
+1/20W Chip Resistor 0201 (0603 Metric) 
+Moisture Resistant Thick Film</t><phoneticPr fontId="1" type="noConversion"/></si><si><t xml:space="preserve">	
+2 MOhms ±5% 0.05W, 
+1/20W Chip Resistor 0201 (0603 Metric) 
+Moisture Resistant Thick Film</t><phoneticPr fontId="1" type="noConversion"/></si><si><t xml:space="preserve">	
+5.1 pF ±0.1pF 25V Ceramic Capacitor C0G, NP0 0201 (0603 Metric)</t><phoneticPr fontId="1" type="noConversion"/></si><si><t>4.7 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0201 (0603 Metric)</t><phoneticPr fontId="1" type="noConversion"/></si></sst>

@@ -1,0 +1,42 @@
+Nail 전용 펌웨어 빌드/플래시 매뉴얼
+
+Bluetooth 광고 이름: NailDevice
+=====================================
+
+대상: Nail 보드 전용
+소스: ble_app_uart/main.c.pre_dualerm_20260804 백업을 내용 변경 없이 main.c로 복원
+주의: 이 펌웨어를 Dual ERM 보드에 사용하지 마세요.
+
+아래 명령은 Git Bash에서 순서대로 실행합니다.
+
+1. DK 연결 후 칩 연결 확인
+
+nrfjprog -f nrf52 --memrd 0x10000060 --n 8
+
+
+2. recover
+
+nrfjprog -f nrf52 --recover
+
+
+3. SoftDevice 설치
+
+cd /c/Users/user/Desktop/CM_Lab/2026_summer/firmware/nail_firmware/ble_app_uart/pca10056/s140/armgcc && make flash_softdevice GNU_INSTALL_ROOT="C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/" GNU_VERSION=10.3.1
+
+
+4. 앱 굽기
+
+cd /c/Users/user/Desktop/CM_Lab/2026_summer/firmware/nail_firmware && bash flash.sh
+
+
+빌드 결과 HEX 위치
+
+ble_app_uart/pca10056/s140/armgcc/_build/nrf52840_xxaa.hex
+
+
+검증 정보 (2026-08-05)
+
+- 빌드 성공: GNU Arm Embedded Toolchain 10.3.1
+- main.c SHA-256: 711B17010BE048A585A30E7FA8023F05D9A7FEFB2192261EA91E53C254D2AB0F
+- HEX SHA-256: C7C0D7FCFDCFF2F0DB941E8318541F35AD514AEB46D1D69B73DAF8BDC9FA3DF1
+- main.c는 원본 main.c.pre_dualerm_20260804와 바이트 단위로 동일합니다.

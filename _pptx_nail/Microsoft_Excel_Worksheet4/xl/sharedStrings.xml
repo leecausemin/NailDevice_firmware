@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="21" uniqueCount="21"><si><t>N</t></si><si><t>Picture</t></si><si><t>Model</t></si><si><t>Description</t></si><si><t>Qt</t></si><si><t>④</t></si><si><t>IMU(LSM6DSLTR)</t></si><si><t>iNEMO inert ial module: always-on 2
+3D accelerometer and 3D gyroscope
+Accelerometer, Gyroscope, Temperature, 6 Axis Sensor I2C,
+SPI Output</t></si><si><t>⑥</t></si><si><t>V2S200D</t></si><si><t xml:space="preserve">The V2S200D is a miniature, high-performance, low power, digital Voice Vibration Sensor (V2S)
+ with a single bit PDM output. Derived from Syntiant’s proven high performance SiSonic™ MEMS technology, 
+the V2S200D consists of a transducer, a low-noise input buffer, and a sigma-delta modulator. </t></si><si><t>⑰</t></si><si><t>1uF Capacitor</t></si><si><r><t xml:space="preserve">Surface mount multilayer ceramic capacitors
+1 </t></r><r><rPr><sz val="11"/><color theme="1"/><rFont val="Calibri"/><family val="2"/><charset val="161"/></rPr><t>μ</t></r><r><rPr><sz val="11"/><color theme="1"/><rFont val="맑은 고딕"/><family val="2"/><charset val="129"/><scheme val="minor"/></rPr><t>F ±10% 6.3V Ceramic Capacitor X5R 0201</t></r></si><si><t>⑱</t></si><si><t>100nF Capacitor</t></si><si><r><t xml:space="preserve">Chip monolithic ceramic capacitor for ge11eral. 4
+0.1 </t></r><r><rPr><sz val="11"/><color theme="1"/><rFont val="Calibri"/><family val="2"/><charset val="161"/></rPr><t>μ</t></r><r><rPr><sz val="11"/><color theme="1"/><rFont val="맑은 고딕"/><family val="2"/><charset val="129"/><scheme val="minor"/></rPr><t>F ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)</t></r></si><si><t>⑲</t></si><si><t>⑳</t></si><si><t>㉑</t></si><si><t>㉒</t></si></sst>

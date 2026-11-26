@@ -1,0 +1,45 @@
+Nail device recording
+=====================
+
+Recording      nail_20260724_150146
+Device         Nordic_UART
+Started        2026-07-24 15:01:46 GMT+09:00
+Stopped        2026-07-24 15:02:26 GMT+09:00
+Duration       39.8 s
+
+Sampling rates
+  Microphone   16000 Hz
+  IMU          416 Hz
+               The IMU rate is an LSM6DSL ODR and is deliberately not a
+               round number; the app's "6.6k" style labels are rounded.
+               Use the exact value above for any time calculation.
+
+Compression    Mic 8-bit / IMU 12-bit (profile 5)
+               Lossy. The board compresses before transmitting, so the
+               CSVs hold decompressed values, not the sensors' original
+               resolution. The sample rate is unaffected.
+
+Microphone     nail_20260724_150146_mic.csv
+  columns      index,pcm
+  units        raw int16 PCM, full scale 32768
+  written      637,952 samples
+  lost         0 samples
+
+IMU            nail_20260724_150146_imu.csv
+  columns      index,ax_g,ay_g,az_g,gx_dps,gy_dps,gz_dps
+  units        accelerometer g (+/-16 g), gyroscope dps (+/-2000 dps)
+  written      0 samples
+  lost         0 samples
+  gyroscope    present
+
+Stream alignment
+  NOT APPLIED - the board reported no origin offset for this
+  recording, so the IMU index below is the board's raw index. The
+  two streams start a few ms apart, so treat any timing measured
+  between the microphone and the IMU as approximate.
+
+Reading the CSVs
+  seconds = index / sampling rate, using the exact rates above.
+  The index column is absolute and skips over samples lost in transit, so
+  row number is not time. A jump in the index is missing data, not a pause;
+  no replacement samples were invented to fill it.
