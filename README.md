@@ -1,17 +1,15 @@
 # NailDevice firmware
 
-nRF52840 (S140 SoftDevice) 기반 IMU + 마이크 BLE 스트리밍 펌웨어.
+nRF52840 (S140 SoftDevice) 기반 IMU + 마이크 BLE 스트리밍 펌웨어. BLE 이름은 `NailDevice`.
 
 ## 폴더
 
-| 폴더 | 대상 보드 | BLE 이름 |
-|---|---|---|
-| `nail_firmware/` | Nail 보드 | `NailDevice` |
-| `erm_frimware/` | Dual ERM 보드 (BMI160) | `ERM` |
-| `ble_app_uart/` | 개발용 (루트 `flash.sh`로 플래시) | `Nordic_UART` |
-| `pc_receiver/` | PC 쪽 BLE 수신/로깅 스크립트 | - |
-
-보드마다 펌웨어가 다르니 서로 바꿔서 굽지 말 것.
+| 경로 | 내용 |
+|---|---|
+| `nail_firmware/` | Nail 보드 펌웨어 소스 + `flash.sh` |
+| `pc_receiver/stream_logger.py` | PC 실시간 수신기 (마이크 → WAV, IMU → CSV) |
+| `pc_receiver/scan.py` | 주변 BLE 기기 스캔 |
+| `pull_recordings.sh` | 폰 앱 녹음 파일을 adb로 PC에 가져오기 |
 
 ## 준비물
 
@@ -21,11 +19,11 @@ nRF52840 (S140 SoftDevice) 기반 IMU + 마이크 BLE 스트리밍 펌웨어.
   - 기본 경로: `C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/`
 - GnuWin32 Make (`C:/Program Files (x86)/GnuWin32/bin/make.exe`)
 - Git Bash (또는 WSL)
-- nRF5 SDK → `C:/nrf_sdk` (다른 곳에 두면 각 Makefile의 `SDK_ROOT` 수정)
+- nRF5 SDK → `C:/nrf_sdk` (다른 곳에 두면 Makefile의 `SDK_ROOT` 수정)
 
 ## 펌웨어 업로드
 
-아래는 전부 Git Bash에서 실행. `<board>` 자리에 `nail_firmware` 또는 `erm_frimware`.
+아래는 전부 Git Bash에서 실행.
 
 **1. 칩 연결 확인**
 
@@ -38,7 +36,7 @@ nrfjprog -f nrf52 --memrd 0x10000060 --n 8
 ```bash
 nrfjprog -f nrf52 --recover
 
-cd <board>/ble_app_uart/pca10056/s140/armgcc
+cd nail_firmware/ble_app_uart/pca10056/s140/armgcc
 make flash_softdevice GNU_INSTALL_ROOT="C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/" GNU_VERSION=10.3.1
 ```
 
@@ -47,13 +45,13 @@ recover 하면 SoftDevice까지 지워지므로 SoftDevice 설치를 꼭 이어�
 **3. 앱 빌드 + 플래시**
 
 ```bash
-cd <board>
+cd nail_firmware
 bash flash.sh
 ```
 
 `flash.sh`는 빌드 후 앱을 굽고, 실패하면 자동으로 recover → SoftDevice → 앱 순서로 다시 굽는다.
 
-빌드 결과 HEX: `<board>/ble_app_uart/pca10056/s140/armgcc/_build/nrf52840_xxaa.hex`
+빌드 결과 HEX: `nail_firmware/ble_app_uart/pca10056/s140/armgcc/_build/nrf52840_xxaa.hex`
 
 ## 문제 생겼을 때
 
@@ -67,4 +65,4 @@ bash flash.sh
 
 - **`Unable to connect to a debugger`**: J-Link RTT Viewer가 켜져 있으면 끄고, DK USB를 뽑았다 다시 꽂기.
 
-보드별 상세 내용은 각 폴더의 `FLASH_MANUAL.txt` 참고.
+자세한 내용은 `nail_firmware/FLASH_MANUAL.txt` 참고.

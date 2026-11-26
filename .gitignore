@@ -29,3 +29,15 @@ tmp/
 # Docs (README only)
 *.md
 !README.md
+
+# Not used by nail_firmware
+_pptx_nail/
+erm_frimware/
+/ble_app_uart/
+/flash.sh
+sched_sim.c
+pc_receiver/from_phone/
+pc_receiver/imu_logger.py
+pc_receiver/receiver.py
+pc_receiver/test_logger.py
+pc_receiver/scan_sensor.py
