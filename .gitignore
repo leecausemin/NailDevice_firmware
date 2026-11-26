@@ -25,3 +25,7 @@ AGENTS.md
 # Local backups / scratch
 *.pre_*
 tmp/
+
+# Docs (README only)
+*.md
+!README.md
